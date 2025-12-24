@@ -1,0 +1,457 @@
+
+
+body{
+    background-color: #fff;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+nav{
+    display:flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 15pxpx;
+}
+.Partner{
+    color:#fff;
+    padding:20px;
+    font-weight:bolder;
+    font-size: 2.8px 28px;
+}
+
+.swiggy{
+    color:#fff;
+    padding:20px;
+    padding-left: 25%;
+    font-weight:bolder;
+    font-size: 2.8px 28px;
+}
+
+.header{
+    padding: 15px 0px;
+    padding-left:9%;
+    padding-right: 10%;
+    position: relative;
+    background-color: #FF5200;
+}
+.logo{
+    height:48px;
+    width: 160px;
+    font-family: 16px Gilroy, arial, Helvetica Neue, sans-serif;
+}
+
+.signin{
+    background-color: black;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 16px;
+    width: 135.5px;
+    height:44px ;
+    font-weight:bolder;
+    border: none;
+}
+
+.install{
+    background: transparent;
+    color: #fff;
+    padding: 10px 8px;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight:bolder;
+    display: flex;
+    gap:10px;
+    border:1.5px solid lab(100% 0.01 -0.01);
+}
+ .material-symbols-outlined.icon-north_east{
+    font-size:20px;
+    color:#fff;
+ }
+
+
+.classlocation{
+    position: relative;
+    display:flex;
+    padding: 14px 16px;
+    align-items: center;
+    height:20px;
+    background-color: #fff;
+    border-radius: 14px;
+    width: 320px;
+}
+
+.location{
+   border:none;
+   outline:none;
+   font-size: 16px;
+   font-weight: bolder;
+}
+.material-symbols-outlined.search-icon{
+    font-size:24px;
+    color:#686b78;
+}
+
+.material-symbols-outlined.stat_minus_1{
+    font-size:24px;
+    color:#000;
+    padding-left: 50px;
+}
+
+
+.location_icon{
+    font-size: 24px;
+    color:#FF5200;
+}
+.food{
+border:none;
+outline:none;
+font-size:16px;
+width:100%;
+color:#3d4152;
+font-weight: bolder;
+}
+
+.searchbar{
+    position: relative;
+display:flex;
+height:20px;
+align-items: center;
+background: #fff;
+padding: 14px 16px;
+border-radius: 14px;
+width:460px;
+}
+.search{
+  padding-top: 75px;
+  display:flex;
+  gap:20px;
+  padding-left: 220px;
+  background-color: #FF5200;
+}
+.veggies{
+    position: absolute;
+    object-fit: cover;
+    height: 450px;
+    width: 250px;
+    left: -3px;
+    bottom: -40px; 
+}
+.right{
+    position: absolute;
+    object-fit: cover;
+    height: 450px;
+    max-width: 100%;
+    right: -3px;
+    bottom: -40px; 
+}
+.devinsta{
+    padding-left:12%;
+    padding-right:8%;
+    display:flex;
+    height:400px;
+    align-items:center;
+    gap:0;
+    background-color: #FF5200;
+    overflow:hidden;
+}
+
+.delivery,
+.instamart{
+    padding-top: 50px;
+    height:300px;
+    width:auto;
+    display:block;
+    object-fit: cover;
+}
+
+.menu{
+    height: 500px;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.subhead{
+    height:26px;
+    width:291.68px;
+    padding:90px 60px 60px 120px;
+    font-weight: bolder;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+.subhead2{
+    height:26px;
+    width:291.68px;
+    padding:90px 60px 60px 150px;
+    font-weight: bolder;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+.buttons{
+    display: flex;
+    gap:1px;
+    flex-wrap:wrap;
+}
+
+.menubuttons h3{
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+    color: #02060CBF;
+    font-weight:bolder;
+    text-align: center;
+}
+.menubuttons{
+    border:none;
+    background: none;
+    padding-left:100px;
+    cursor:pointer;
+}
+.menubuttons img{
+    width:120px;
+    height:auto;
+}
+.payment{
+    padding-top: 50px;
+    height: 30pxpx;
+}
+.payment img{
+    height:242.54px;
+    width:1300px;
+}
+.transport{
+   display:flex;
+   flex-wrap: wrap;
+   gap:10px;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding:0px 60px 60px 6px;
+}
+
+.boxes{
+    width: 140px;
+    padding: 20px;
+    border:1px solid rgba(2, 6, 12, 0.15);
+    border-radius: 12px;
+    background: #fff;
+    cursor:pointer;
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.showmore{
+    width: 150px;
+    padding: 16px;
+    border:1px solid #e0e0e0;
+    border-radius: 12px;
+    background: #fff;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.showmore p{
+    text-align: center;
+    font-size: medium;
+    color: #FF5200;
+    font-weight: bold;
+}
+.boxes p{
+    margin:0;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #02060CBF;
+}
+.cities{
+    padding:60px 60px 60px 200px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+    color: #02060CEB;
+}
+
+.material-symbols-outlined{
+    font-size:20px;
+    color:#FF5200;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.footer{
+    height:500px;
+    background-color: #F0F0F5;
+    padding-top: 30px;
+    display:flex;
+    
+}
+
+.signature{
+   padding-left: 200px;
+}
+.signature img{
+    height: 48px;
+    width:160px;
+    padding-top: 30px;
+}
+.quote{
+    height:21px;
+    width:201.12px;
+    color: #02060C99;
+}
+
+.column1{
+    height:418px;
+    width:135.55px;
+    
+}
+.column1 div{
+    padding-bottom: 20px;
+}
+.column2 div{
+    padding-bottom: 20px;
+}
+.column3 div{
+    padding-bottom: 20px;
+}
+.column4 div{
+    padding-bottom: 20px;
+}
+
+.column1 li{
+    list-style: none;
+    color:#02060C99;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+
+
+.column2 li{
+    list-style: none;
+    color:#02060C99;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+ .column3 li{
+    list-style: none;
+    color:#02060C99;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+.column4 li{
+    list-style: none;
+    color:#02060C99;
+    font-family: Gilroy,arial,Helvetica Neue,sans-serif;
+}
+
+.colhead{
+    height:22px;
+    width:100.55px;
+    color: #050e1ceb;
+    font-family: 18px Gilroy,arial,Helvetica Neue,sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+}
+
+.colheadlegal{
+    height:22px;
+    width:130.55px;
+    color: #050e1ceb;
+    font-family: 18px Gilroy,arial,Helvetica Neue,sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+    padding-top: 35px;
+}
+
+.column2{
+    height:418px;
+    width:135.55px;
+    list-style: none;
+}
+
+.column3{
+    height:418px;
+    width:125.55px;
+    list-style: none;
+}
+.column3 button{
+ width: 111.55px;
+ height:32px;
+ border-radius: 8px;
+ font-family: 14px Gilroy,arial,Helvetica Neue,sans-serif;
+    border:1.5px solid #02060C99 ;
+    color: #02060C99; 
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    cursor:pointer
+}
+
+.material-symbols-outlined.icon-down{
+    font-size:20px;
+    color:#02060CBF;
+    align-items: center;
+}
+
+.column4{
+    height:418px;
+    width:200.55px;
+    list-style: none;
+}
+
+.column4 img{
+    padding-right: 10px;
+    
+}
+
+.footer-bottom{
+    background-color:#F0F0F5;
+    padding: 8px 0;
+}
+.line {
+    display: block ;
+    width: 90vw ;
+    margin-left: calc(50% - 50vw) ;
+    border: none;
+    border-top: 1px solid #000;
+    margin-top: 40px;
+    margin: 20px auto;
+}
+
+.footer-app {
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F5;
+    padding: 20px 200px;
+    gap: 20px;
+}
+
+.footer-app button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.footer-app button:hover ,.column3 button:hover,.menubuttons:hover,.install:hover,.signin:hover,.appbuttons:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease;
+    opacity: 0.9;
+
+}
+
+.footer-app img {
+    height: 60px;
+}
+
+.footer-app p{
+    color: #02060CBF;
+    font-family: 14px Gilroy,arial,Helvetica Neue,sans-serif;
+    font-size:19px;
+    font-weight:bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
